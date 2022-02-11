@@ -78,12 +78,12 @@
 
 .booking--box:nth-child(2) {
   background-color: var(--primary--light);
+  color: var(--black);
 }
 
 .booking--text {
   font-weight: 300;
   font-size: 3rem;
-  color: var(--black--shade);
   margin-bottom: 1.6rem;
 }
 
@@ -94,6 +94,6 @@
 }
 
 .booking--month {
-  font-weight: 600;
+  font-weight: 700;
   font-size: 2.4rem;
 }
