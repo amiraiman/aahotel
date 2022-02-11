@@ -1,3 +1,22 @@
+:root {
+  --primary: #faa307;
+  --primary--light: #fee9c3;
+  --primary--shade: #fcc55f;
+  --primary--dark: #784f02;
+  --secondary: #d00000;
+  --secondary--light: #ffc2c2;
+  --secondary--shade: #ff4747;
+  --secondary--dark: #7a0000;
+  --gray: #777;
+  --gray--light: #e0e0e0;
+  --gray--shade: #adadad;
+  --gray--dark: #333;
+  --black: #000;
+  --black--shade: #03071e;
+  --white: #fff;
+  --white--shade: #eee;
+}
+
 * {
   margin: 0;
   padding: 0;
