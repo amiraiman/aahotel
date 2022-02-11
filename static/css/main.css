@@ -36,6 +36,7 @@
 .hero-text,
 .hero-form {
   align-self: center;
+  justify-self: center;
 }
 
 .hero-heading {
@@ -51,4 +52,44 @@
   color: #adadad;
   font-weight: 300;
   line-height: 1.1;
+}
+
+.hero-form {
+  width: 70%;
+}
+
+.booking--container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 0.8rem;
+  background-color: #333;
+  padding: 0.8rem;
+}
+
+.booking--box {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  align-items: center;
+  justify-content: center;
+  padding: 1.2rem 0;
+  background-color: #777;
+}
+
+.booking--text {
+  font-weight: 300;
+  font-size: 3rem;
+  color: #eee;
+}
+
+.booking--day {
+  font-weight: 700;
+  font-size: 4.8rem;
+  color: #fff;
+}
+
+.booking--month {
+  font-weight: 300;
+  font-size: 2.4rem;
+  color: #eee;
 }
