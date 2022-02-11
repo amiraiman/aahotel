@@ -42,14 +42,14 @@
 .hero-heading {
   font-size: 6rem;
   font-weight: 700;
-  color: #e0e0e0;
+  color: var(--gray--light);
   line-height: 1.1;
   letter-spacing: 0.2rem;
 }
 
 .hero-subheading {
   font-size: 3rem;
-  color: #adadad;
+  color: var(--gray--shade);
   font-weight: 300;
   line-height: 1.1;
 }
@@ -62,34 +62,38 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 0.8rem;
-  background-color: #333;
+  background-color: var(--gray--dark);
   padding: 0.8rem;
 }
 
 .booking--box {
   display: flex;
   flex-direction: column;
-  gap: 1.2rem;
   align-items: center;
   justify-content: center;
   padding: 1.2rem 0;
-  background-color: #777;
+  background-color: var(--primary);
+  color: var(--black);
+}
+
+.booking--box:nth-child(2) {
+  background-color: var(--primary--light);
 }
 
 .booking--text {
   font-weight: 300;
   font-size: 3rem;
-  color: #eee;
+  color: var(--black--shade);
+  margin-bottom: 1.6rem;
 }
 
 .booking--day {
   font-weight: 700;
   font-size: 4.8rem;
-  color: #fff;
+  margin-bottom: 0.8rem;
 }
 
 .booking--month {
-  font-weight: 300;
+  font-weight: 600;
   font-size: 2.4rem;
-  color: #eee;
 }
