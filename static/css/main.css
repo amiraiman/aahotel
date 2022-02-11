@@ -32,3 +32,24 @@
   grid-template-columns: 1fr 1fr;
   grid-gap: 4.8rem;
 }
+
+.hero-text,
+.hero-form {
+  align-self: center;
+}
+
+.hero-heading {
+  font-size: 6rem;
+  font-weight: 700;
+  color: #e0e0e0;
+  line-height: 1.1;
+  letter-spacing: 0.2rem;
+  margin-bottom: 3.2rem;
+}
+
+.hero-subheading {
+  font-size: 3rem;
+  color: #adadad;
+  font-weight: 300;
+  line-height: 1.1;
+}
