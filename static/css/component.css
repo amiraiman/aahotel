@@ -1,3 +1,4 @@
+/* Buttons */
 .btn,
 .btn:link,
 .btn:visited {
@@ -43,4 +44,10 @@
 .btn-primary--outline:active {
   background-color: var(--primary);
   color: var(--black);
+}
+
+/* Containers */
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
 }
