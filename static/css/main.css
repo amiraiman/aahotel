@@ -3,6 +3,11 @@
   height: 70px;
 }
 
+.header-container {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
 /* Hero */
 .hero-section {
   height: 100vh;
