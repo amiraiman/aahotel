@@ -46,6 +46,16 @@
   color: var(--black);
 }
 
+/* Texts */
+.section-heading {
+  font-size: 4.8rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-bottom: 4.8rem;
+}
+
 /* Containers */
 .container {
   max-width: 1100px;
