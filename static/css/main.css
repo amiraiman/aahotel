@@ -110,6 +110,7 @@
 .intro-text {
   font-size: 1.6rem;
   font-weight: 400;
+  text-align: justify;
   line-height: 1.6;
   width: 70%;
 }
