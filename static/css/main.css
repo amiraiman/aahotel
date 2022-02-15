@@ -170,8 +170,12 @@
 
 .featured-grid {
   display: grid;
-  grid-template-columns: 1fr 4fr;
-  grid-gap: 9.6rem;
+  grid-template-columns: 1.5fr 4fr;
+  grid-gap: 7.2rem;
+}
+
+.rating {
+  border-right: 1px solid var(--primary);
 }
 
 .reviews {
