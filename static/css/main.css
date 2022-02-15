@@ -164,6 +164,10 @@
 }
 
 /* Featured */
+.featured-section {
+  background-color: var(--primary--tint);
+}
+
 .featured-grid {
   display: grid;
   grid-template-columns: 1fr 4fr;
@@ -203,5 +207,5 @@
 .review-name {
   align-self: flex-end;
   justify-self: flex-end;
-  color: var(--gray);
+  color: var(--gray--dark);
 }
