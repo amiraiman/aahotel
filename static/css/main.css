@@ -189,3 +189,10 @@
   border-radius: 50%;
   grid-row: 1 / span 2;
 }
+
+.review-text {
+  align-self: center;
+  font-size: 1.2rem;
+  text-align: justify;
+  line-height: 1.6;
+}
