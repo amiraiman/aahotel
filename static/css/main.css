@@ -196,3 +196,9 @@
   text-align: justify;
   line-height: 1.6;
 }
+
+.review-name {
+  align-self: flex-end;
+  justify-self: flex-end;
+  color: var(--gray);
+}
