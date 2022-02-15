@@ -169,3 +169,15 @@
   grid-template-columns: 1fr 4fr;
   grid-gap: 9.6rem;
 }
+
+.reviews {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 6.4rem;
+  row-gap: 3.2rem;
+}
+
+.review {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
