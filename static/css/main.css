@@ -190,6 +190,7 @@
   width: 8rem;
   border-radius: 50%;
   grid-row: 1 / span 2;
+  justify-self: center;
 }
 
 .review-text {
