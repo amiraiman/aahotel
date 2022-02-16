@@ -197,8 +197,13 @@
 }
 
 .rating-text {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   line-height: 1.6;
+}
+
+.rating-text--inner {
+  font-weight: 700;
+  color: var(--primary--dark);
 }
 
 .reviews {
