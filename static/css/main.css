@@ -254,3 +254,9 @@
 }
 
 /* Ammenities */
+.ammenities {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 3.2rem;
+  column-gap: 6.4rem;
+}
