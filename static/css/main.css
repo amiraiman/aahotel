@@ -206,6 +206,17 @@
   color: var(--primary--dark);
 }
 
+.rating-text--link:link,
+.rating-text--link:visited {
+  color: inherit;
+  transition: all 0.2s ease-in;
+}
+
+.rating-text--link:hover,
+.rating-text--link:active {
+  color: var(--primary--dark);
+}
+
 .reviews {
   display: grid;
   grid-template-columns: 1fr 1fr;
