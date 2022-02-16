@@ -273,6 +273,16 @@
   border-radius: 9px;
 }
 
+.ammenity:nth-child(1),
+.ammenity:nth-child(4) {
+  justify-self: end;
+}
+
+.ammenity:nth-child(3),
+.ammenity:nth-child(6) {
+  justify-self: start;
+}
+
 .ammenity-heading {
   font-size: 2.4rem;
   font-weight: 400;
