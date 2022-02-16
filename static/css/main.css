@@ -178,6 +178,11 @@
   border-right: 1px solid var(--primary);
 }
 
+.rating-star-icon {
+  font-size: 2.4rem;
+  color: var(--primary);
+}
+
 .reviews {
   display: grid;
   grid-template-columns: 1fr 1fr;
