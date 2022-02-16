@@ -260,3 +260,10 @@
   row-gap: 3.2rem;
   column-gap: 6.4rem;
 }
+
+.ammenity {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
