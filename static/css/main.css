@@ -190,6 +190,12 @@
   color: var(--primary);
 }
 
+.rating-count {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: var(--primary--dark);
+}
+
 .reviews {
   display: grid;
   grid-template-columns: 1fr 1fr;
