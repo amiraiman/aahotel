@@ -178,6 +178,12 @@
   border-right: 1px solid var(--primary);
 }
 
+.rating-star {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
 .rating-star-icon {
   font-size: 2.4rem;
   color: var(--primary);
