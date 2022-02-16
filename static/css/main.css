@@ -162,3 +162,142 @@
   line-height: 1.6;
   width: 70%;
 }
+
+/* Featured */
+.featured-section {
+  background-color: var(--primary--tint);
+}
+
+.featured-grid {
+  display: grid;
+  grid-template-columns: 1.5fr 4fr;
+  grid-gap: 7.2rem;
+}
+
+.rating {
+  border-right: 1px solid var(--primary);
+}
+
+.rating-star {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  margin-bottom: 2.4rem;
+}
+
+.rating-star-icon {
+  font-size: 2.4rem;
+  color: var(--primary);
+}
+
+.rating-count {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: var(--primary--dark);
+}
+
+.rating-text {
+  font-size: 1.4rem;
+  line-height: 1.6;
+}
+
+.rating-text--inner {
+  font-weight: 700;
+  color: var(--primary--dark);
+}
+
+.rating-text--link:link,
+.rating-text--link:visited {
+  color: inherit;
+  transition: all 0.2s ease-in;
+}
+
+.rating-text--link:hover,
+.rating-text--link:active {
+  color: var(--primary--dark);
+}
+
+.reviews {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 6.4rem;
+  row-gap: 3.2rem;
+}
+
+.review {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  column-gap: 2.4rem;
+  row-gap: 1.6rem;
+}
+
+.review-img {
+  display: block;
+  height: 8rem;
+  width: 8rem;
+  border-radius: 50%;
+  grid-row: 1 / span 2;
+  justify-self: center;
+}
+
+.review-text {
+  align-self: center;
+  font-size: 1.2rem;
+  text-align: justify;
+  line-height: 1.6;
+}
+
+.review-name {
+  align-self: flex-end;
+  justify-self: flex-end;
+  color: var(--gray--dark);
+}
+
+/* Ammenities */
+.ammenities {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 3.2rem;
+  column-gap: 6.4rem;
+  justify-items: center;
+}
+
+.ammenity {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  padding: 1.6rem;
+  box-shadow: 0 0 5px 0px rgba(0, 0, 0, 0.7);
+  border-radius: 9px;
+}
+
+.ammenity:nth-child(1),
+.ammenity:nth-child(4) {
+  justify-self: end;
+}
+
+.ammenity:nth-child(3),
+.ammenity:nth-child(6) {
+  justify-self: start;
+}
+
+.ammenity-heading {
+  font-size: 2.4rem;
+  font-weight: 400;
+  margin-bottom: 1.2rem;
+}
+
+.ammenity-icon {
+  font-size: 3rem;
+  color: var(--secondary);
+  margin-bottom: 2.4rem;
+}
+
+.ammenity-text {
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1.5;
+  text-align: center;
+}
