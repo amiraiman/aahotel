@@ -267,3 +267,9 @@
   justify-content: center;
   align-items: center;
 }
+
+.ammenity-heading {
+  font-size: 3rem;
+  font-weight: 400;
+  margin-bottom: 1.6rem;
+}
