@@ -196,6 +196,11 @@
   color: var(--primary--dark);
 }
 
+.rating-text {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
 .reviews {
   display: grid;
   grid-template-columns: 1fr 1fr;
