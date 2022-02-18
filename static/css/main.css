@@ -339,8 +339,6 @@
 }
 
 .room-feature {
-  font-size: 1.6rem;
-  font-weight: 500;
   display: flex;
   align-items: center;
   gap: 1rem;
@@ -349,4 +347,10 @@
 .room-icon {
   color: var(--primary--dark);
   font-size: 2.4rem;
+}
+
+.room-text {
+  text-transform: capitalize;
+  font-size: 1.6rem;
+  font-weight: 500;
 }
