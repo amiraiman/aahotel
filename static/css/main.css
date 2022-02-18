@@ -312,6 +312,8 @@
 
 .room {
   box-shadow: 0 3.2rem 6.4rem 0 rgba(0, 0, 0, 0.05);
+  border-radius: 9px;
+  overflow: hidden;
 }
 
 .room-image {
