@@ -321,3 +321,7 @@
   width: 100%;
   height: 20rem;
 }
+
+.room-body {
+  padding: 1.6rem 3.2rem;
+}
