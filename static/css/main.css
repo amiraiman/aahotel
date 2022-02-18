@@ -317,10 +317,19 @@
   overflow: hidden;
 }
 
+.room-header {
+  overflow: hidden;
+}
+
 .room-image {
   display: block;
   width: 100%;
   height: 20rem;
+  transition: all 0.2s ease-in;
+}
+
+.room-image:hover {
+  transform: scale(1.2);
 }
 
 .room-body {
