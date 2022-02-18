@@ -302,3 +302,10 @@
   line-height: 1.5;
   text-align: center;
 }
+
+/* Accommodation */
+.rooms {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 9.6rem;
+}
