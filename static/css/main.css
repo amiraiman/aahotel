@@ -307,7 +307,7 @@
 .rooms {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 9.6rem;
+  gap: 7.2rem;
 }
 
 .room {
