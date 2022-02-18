@@ -354,3 +354,19 @@
   font-size: 1.6rem;
   font-weight: 500;
 }
+
+.room-link:link,
+.room-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: var(--black);
+  font-size: 1.6rem;
+  border-bottom: 1px solid transparent;
+  transition: all 0.2s ease-in;
+}
+
+.room-link:hover,
+.room-link:active {
+  border-bottom: 1px solid var(--primary--shade);
+  color: var(--primary--shade);
+}
