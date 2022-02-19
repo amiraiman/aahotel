@@ -385,3 +385,30 @@
   border-bottom: 1px solid var(--primary--shade);
   color: var(--primary--shade);
 }
+
+/* Foods Gallery Section */
+.gallery-outer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1.2rem;
+}
+
+.gallery-inner {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1.2rem;
+}
+
+.gallery-text {
+  grid-column: span 2;
+}
+
+.gallery-image {
+  width: 100%;
+  height: 15rem;
+  transition: all 0.2s ease-in;
+}
+
+.gallery-image:hover {
+  transform: translateY(-5%);
+}
