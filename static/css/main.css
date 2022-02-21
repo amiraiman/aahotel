@@ -422,3 +422,11 @@
   font-size: 1.6rem;
   color: var(--gray);
 }
+
+.footer-logo {
+  width: 30%;
+}
+
+.footer-icon {
+  font-size: 2rem;
+}
