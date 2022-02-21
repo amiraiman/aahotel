@@ -432,3 +432,8 @@
 .footer-logo {
   height: 1.6rem;
 }
+
+.footer-icons {
+  display: flex;
+  gap: 1.2rem;
+}
