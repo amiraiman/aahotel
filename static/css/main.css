@@ -451,3 +451,8 @@
   display: flex;
   gap: 1.2rem;
 }
+
+.footer-link.footer-icons a:link,
+.footer-link.footer-icons a:visited {
+  border-bottom: none;
+}
