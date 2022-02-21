@@ -418,15 +418,17 @@
   margin-bottom: 3.2rem;
 }
 
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
 .footer-link {
   font-size: 1.6rem;
   color: var(--gray);
 }
 
 .footer-logo {
-  width: 30%;
-}
-
-.footer-icon {
-  font-size: 2rem;
+  height: 1.6rem;
 }
