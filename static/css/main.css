@@ -390,3 +390,8 @@
 .gallery-image:hover {
   transform: translateY(-5%);
 }
+
+/* Location Section */
+#map {
+  height: 20rem;
+}
