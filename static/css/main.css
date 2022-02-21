@@ -392,6 +392,10 @@
 }
 
 /* Location Section */
+.loc-section {
+  background-color: var(--primary--tint);
+}
+
 #map {
-  height: 20rem;
+  height: 30rem;
 }

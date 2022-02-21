@@ -2,7 +2,7 @@
 const coords = [38.898, -77.045];
 
 // Create map centered to location
-const map = L.map("map").setView(coords, 13);
+const map = L.map("map").setView(coords, 16);
 L.tileLayer(
   "https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}",
   {
