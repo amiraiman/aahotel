@@ -429,15 +429,6 @@
   color: var(--gray);
 }
 
-.footer-logo {
-  height: 1.6rem;
-}
-
-.footer-icons {
-  display: flex;
-  gap: 1.2rem;
-}
-
 .footer-link a:link,
 .footer-link a:visited {
   text-decoration: none;
@@ -450,4 +441,13 @@
 .footer-link a:active {
   border-bottom: 1px solid var(--primary--shade);
   color: var(--black);
+}
+
+.footer-logo {
+  height: 1.6rem;
+}
+
+.footer-icons {
+  display: flex;
+  gap: 1.2rem;
 }
