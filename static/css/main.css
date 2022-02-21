@@ -437,3 +437,17 @@
   display: flex;
   gap: 1.2rem;
 }
+
+.footer-link a:link,
+.footer-link a:visited {
+  text-decoration: none;
+  border-bottom: 1px solid var(--primary);
+  color: inherit;
+  transition: all 0.2s ease-in;
+}
+
+.footer-link a:hover,
+.footer-link a:active {
+  border-bottom: 1px solid var(--primary--shade);
+  color: var(--black);
+}
