@@ -19,3 +19,6 @@ L.tileLayer(
 
 // Add marker to coords
 const mapPointer = L.marker(coords).addTo(map);
+
+// Add popup on marker
+mapPointer.bindPopup("We are here!").openPopup();
