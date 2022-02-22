@@ -14,6 +14,6 @@ app.get("/", (req, res) => {
   res.render("index", { leaflet_api_key });
 });
 
-app.listen(port, "localhost", () => {
+app.listen(port, () => {
   console.log("Listening on port", port);
 });
