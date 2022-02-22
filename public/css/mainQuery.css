@@ -1,0 +1,27 @@
+/* Small Screen <= 1328px  */
+@media (max-width: 83em) {
+  .header-container {
+    max-width: 1100px;
+  }
+  .hero-container,
+  .container {
+    max-width: 1000px;
+  }
+
+  .ammenity {
+    width: 60%;
+  }
+
+  .rooms {
+    gap: 4.8rem;
+  }
+
+  .section-link:link,
+  .section-link:visited {
+    font-size: 2rem;
+  }
+}
+
+/* Landscaped Tablet <= 1120px  */
+@media (max-width: 70em) {
+}
