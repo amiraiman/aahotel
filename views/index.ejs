@@ -33,14 +33,17 @@
     ></script>
 
     <!-- Stylesheets -->
-    <link rel="stylesheet" href="static/css/general.css" />
-    <link rel="stylesheet" href="static/css/component.css" />
-    <link rel="stylesheet" href="static/css/utility.css" />
-    <link rel="stylesheet" href="static/css/main.css" />
+    <link rel="stylesheet" href="/css/general.css" />
+    <link rel="stylesheet" href="/css/component.css" />
+    <link rel="stylesheet" href="/css/utility.css" />
+    <link rel="stylesheet" href="/css/main.css" />
 
     <!-- Scripts -->
-    <script defer src="static/js/map.js"></script>
-    <script defer src="static/js/misc.js"></script>
+    <script type="text/javascript">
+      const api_key = "<%= leaflet_api_key %>";
+    </script>
+    <script defer src="/js/map.js"></script>
+    <script defer src="/js/misc.js"></script>
   </head>
 
   <body>
@@ -48,7 +51,7 @@
       <div class="header-container">
         <img
           class="header-logo"
-          src="assets/logo/new_logo.png"
+          src="/assets/logo/new_logo.png"
           alt="AAHotel Logo"
         />
         <ul class="header-nav">
@@ -141,7 +144,7 @@
               <figure class="review">
                 <img
                   class="review-img"
-                  src="assets/img/reviews/ben.jpeg"
+                  src="/assets/img/reviews/ben.jpeg"
                   alt="Photo of Ben Cock"
                 />
                 <blockquote class="review-text">
@@ -154,7 +157,7 @@
               <figure class="review">
                 <img
                   class="review-img"
-                  src="assets/img/reviews/sarah.jpeg"
+                  src="/assets/img/reviews/sarah.jpeg"
                   alt="Photo of Sarah Muller"
                 />
                 <blockquote class="review-text">
@@ -166,7 +169,7 @@
               <figure class="review">
                 <img
                   class="review-img"
-                  src="assets/img/reviews/michelle.jpeg"
+                  src="/assets/img/reviews/michelle.jpeg"
                   alt="Photo of Michelle Amber"
                 />
                 <blockquote class="review-text">
@@ -181,7 +184,7 @@
               <figure class="review">
                 <img
                   class="review-img"
-                  src="assets/img/reviews/josh.jpeg"
+                  src="/assets/img/reviews/josh.jpeg"
                   alt="Photo of Joshua Hardy"
                 />
                 <blockquote class="review-text">
@@ -241,7 +244,7 @@
             <header class="room-header">
               <img
                 class="room-image"
-                src="assets/img/rooms/couple.jpg"
+                src="/assets/img/rooms/couple.jpg"
                 alt="Image of a couple room with a single bed"
               />
             </header>
@@ -271,7 +274,7 @@
             <header class="room-header">
               <img
                 class="room-image"
-                src="assets/img/rooms/family.jpg"
+                src="/assets/img/rooms/family.jpg"
                 alt="Image of a couple room with a single bed"
               />
             </header>
@@ -301,7 +304,7 @@
             <header class="room-header">
               <img
                 class="room-image"
-                src="assets/img/rooms/suite.jpg"
+                src="/assets/img/rooms/suite.jpg"
                 alt="Image of a couple room with a single bed"
               />
             </header>
@@ -342,42 +345,42 @@
             <div class="gallery-image-box">
               <img
                 class="gallery-image"
-                src="assets/img/food/asian-duck.jpg"
+                src="/assets/img/food/asian-duck.jpg"
                 alt="Picture of roaste duck"
               />
             </div>
             <div class="gallery-image-box">
               <img
                 class="gallery-image"
-                src="assets/img/food/asian-oden.jpg"
+                src="/assets/img/food/asian-oden.jpg"
                 alt="Picture of roaste duck"
               />
             </div>
             <div class="gallery-image-box">
               <img
                 class="gallery-image"
-                src="assets/img/food/asian-ramen.jpg"
+                src="/assets/img/food/asian-ramen.jpg"
                 alt="Picture of roaste duck"
               />
             </div>
             <div class="gallery-image-box">
               <img
                 class="gallery-image"
-                src="assets/img/food/asian-sushi.jpg"
+                src="/assets/img/food/asian-sushi.jpg"
                 alt="Picture of roaste duck"
               />
             </div>
             <div class="gallery-image-box">
               <img
                 class="gallery-image"
-                src="assets/img/food/asian-kimchi.jpg"
+                src="/assets/img/food/asian-kimchi.jpg"
                 alt="Picture of roaste duck"
               />
             </div>
             <div class="gallery-image-box">
               <img
                 class="gallery-image"
-                src="assets/img/food/asian-noodles.jpg"
+                src="/assets/img/food/asian-noodles.jpg"
                 alt="Picture of roaste duck"
               />
             </div>
@@ -387,42 +390,42 @@
             <div class="gallery-image-box">
               <img
                 class="gallery-image"
-                src="assets/img/food/indian-meat.jpg"
+                src="/assets/img/food/indian-meat.jpg"
                 alt="Picture of roaste duck"
               />
             </div>
             <div class="gallery-image-box">
               <img
                 class="gallery-image"
-                src="assets/img/food/indian-rice.jpg"
+                src="/assets/img/food/indian-rice.jpg"
                 alt="Picture of roaste duck"
               />
             </div>
             <div class="gallery-image-box">
               <img
                 class="gallery-image"
-                src="assets/img/food/indian-roti.jpg"
+                src="/assets/img/food/indian-roti.jpg"
                 alt="Picture of roaste duck"
               />
             </div>
             <div class="gallery-image-box">
               <img
                 class="gallery-image"
-                src="assets/img/food/indian-vada.jpg"
+                src="/assets/img/food/indian-vada.jpg"
                 alt="Picture of roaste duck"
               />
             </div>
             <div class="gallery-image-box">
               <img
                 class="gallery-image"
-                src="assets/img/food/indian-curry.jpg"
+                src="/assets/img/food/indian-curry.jpg"
                 alt="Picture of roaste duck"
               />
             </div>
             <div class="gallery-image-box">
               <img
                 class="gallery-image"
-                src="assets/img/food/indian-biryani.jpg"
+                src="/assets/img/food/indian-biryani.jpg"
                 alt="Picture of roaste duck"
               />
             </div>
@@ -432,42 +435,42 @@
             <div class="gallery-image-box">
               <img
                 class="gallery-image"
-                src="assets/img/food/western-steak.jpg"
+                src="/assets/img/food/western-steak.jpg"
                 alt="Picture of roaste duck"
               />
             </div>
             <div class="gallery-image-box">
               <img
                 class="gallery-image"
-                src="assets/img/food/western-burger.jpg"
+                src="/assets/img/food/western-burger.jpg"
                 alt="Picture of roaste duck"
               />
             </div>
             <div class="gallery-image-box">
               <img
                 class="gallery-image"
-                src="assets/img/food/western-pancake.jpg"
+                src="/assets/img/food/western-pancake.jpg"
                 alt="Picture of roaste duck"
               />
             </div>
             <div class="gallery-image-box">
               <img
                 class="gallery-image"
-                src="assets/img/food/western-sausage.jpg"
+                src="/assets/img/food/western-sausage.jpg"
                 alt="Picture of roaste duck"
               />
             </div>
             <div class="gallery-image-box">
               <img
                 class="gallery-image"
-                src="assets/img/food/western-chicken_chop.jpg"
+                src="/assets/img/food/western-chicken_chop.jpg"
                 alt="Picture of roaste duck"
               />
             </div>
             <div class="gallery-image-box">
               <img
                 class="gallery-image"
-                src="assets/img/food/western-mac_n_cheese.jpg"
+                src="/assets/img/food/western-mac_n_cheese.jpg"
                 alt="Picture of roaste duck"
               />
             </div>
@@ -493,7 +496,7 @@
               <li class="footer-link">
                 <img
                   class="footer-logo"
-                  src="assets/logo/new_logo.png"
+                  src="/assets/logo/new_logo.png"
                   alt="AAHotel logo"
                 />
               </li>
