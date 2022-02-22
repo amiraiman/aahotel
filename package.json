@@ -1,0 +1,20 @@
+{
+  "name": "aahotel",
+  "version": "1.0.0",
+  "description": "AAhotel is a dummy hotel that serves affordable accomodations plan",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amiraiman/aahotel.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amiraiman/aahotel/issues"
+  },
+  "homepage": "https://github.com/amiraiman/aahotel#readme"
+}
