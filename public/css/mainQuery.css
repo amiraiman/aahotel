@@ -43,4 +43,26 @@
   .hero-form {
     width: 90%;
   }
+
+  .featured-grid {
+    grid-gap: 2.4rem;
+  }
+
+  .reviews {
+    gap: 2.4rem;
+  }
+
+  .review {
+    gap: 1.6rem;
+  }
+
+  .review-img {
+    height: 6rem;
+    width: 6rem;
+    grid-row: 1;
+  }
+
+  .review-name {
+    grid-column: 1 / span 2;
+  }
 }
