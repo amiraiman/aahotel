@@ -143,4 +143,8 @@
   .review-name {
     grid-column: 2;
   }
+
+  .ammenity {
+    width: 82%;
+  }
 }
