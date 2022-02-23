@@ -104,4 +104,21 @@
   .hero-form {
     width: 100%;
   }
+
+  .booking--container {
+    padding: 0;
+  }
+
+  .booking--box {
+    padding: 0.8rem 0;
+  }
+
+  .booking--text {
+    font-size: 2.4rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .booking--day {
+    margin-bottom: 0;
+  }
 }
