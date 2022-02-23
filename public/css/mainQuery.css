@@ -125,4 +125,12 @@
   .intro-text {
     width: 100%;
   }
+
+  .featured-grid {
+    grid-template-columns: 1.3fr 2fr;
+  }
+
+  .reviews {
+    grid-template-columns: 1fr;
+  }
 }
