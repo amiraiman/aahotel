@@ -3,9 +3,14 @@
   .header-container {
     max-width: 1100px;
   }
+
   .hero-container,
   .container {
     max-width: 1000px;
+  }
+
+  .hero-form {
+    width: 80%;
   }
 
   .ammenity {
@@ -24,4 +29,18 @@
 
 /* Landscaped Tablet <= 1120px  */
 @media (max-width: 70em) {
+  .header-container {
+    max-width: 900px;
+    padding: 0 1.6rem;
+  }
+
+  .hero-container,
+  .container {
+    max-width: 900px;
+    padding: 0 2.4rem;
+  }
+
+  .hero-form {
+    width: 90%;
+  }
 }
