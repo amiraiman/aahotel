@@ -65,4 +65,8 @@
   .review-name {
     grid-column: 1 / span 2;
   }
+
+  .ammenity {
+    width: 70%;
+  }
 }
