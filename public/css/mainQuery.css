@@ -133,4 +133,14 @@
   .reviews {
     grid-template-columns: 1fr;
   }
+
+  .review-img {
+    height: 8rem;
+    width: 8rem;
+    grid-row: 1 / span 2;
+  }
+
+  .review-name {
+    grid-column: 2;
+  }
 }
