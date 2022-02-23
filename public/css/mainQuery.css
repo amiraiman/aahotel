@@ -147,4 +147,8 @@
   .ammenity {
     width: 82%;
   }
+
+  .rooms {
+    gap: 1.6rem;
+  }
 }
