@@ -121,4 +121,8 @@
   .booking--day {
     margin-bottom: 0;
   }
+
+  .intro-text {
+    width: 100%;
+  }
 }
