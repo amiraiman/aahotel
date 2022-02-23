@@ -149,6 +149,13 @@
   }
 
   .rooms {
-    gap: 1.6rem;
+    grid-template-columns: 1fr 1fr;
+    gap: 7.2rem;
+  }
+
+  .room:nth-child(3) {
+    grid-column: 1 / span 2;
+    width: 45%;
+    justify-self: center;
   }
 }
