@@ -69,4 +69,16 @@
   .ammenity {
     width: 70%;
   }
+
+  .room-body {
+    padding: 1.2rem 2.4rem;
+  }
+
+  .room-title {
+    margin-bottom: 1.2rem;
+  }
+
+  .room-features {
+    margin-left: 1.2rem;
+  }
 }
