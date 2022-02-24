@@ -195,4 +195,8 @@
   .booking--text {
     font-size: 3.2rem;
   }
+
+  .featured-grid {
+    grid-template-columns: 1fr;
+  }
 }
