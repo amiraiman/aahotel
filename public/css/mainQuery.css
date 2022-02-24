@@ -159,3 +159,10 @@
     justify-self: center;
   }
 }
+
+/* Big Phones <= 702px  */
+@media (max-width: 44em) {
+  .header-nav {
+    display: none;
+  }
+}
