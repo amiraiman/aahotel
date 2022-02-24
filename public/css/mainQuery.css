@@ -252,4 +252,16 @@
   .ammenity:nth-child(even) {
     justify-self: start;
   }
+
+  .rooms {
+    grid-template-columns: 1fr;
+    gap: 2.4rem;
+  }
+
+  .room,
+  .room:nth-child(3) {
+    width: 65%;
+    justify-self: center;
+    grid-column: unset;
+  }
 }
