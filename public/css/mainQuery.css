@@ -162,6 +162,13 @@
 
 /* Big Phones <= 702px  */
 @media (max-width: 44em) {
+  .btn,
+  .btn:link,
+  .btn:visited {
+    font-size: 2rem;
+    padding: 1.2rem 2.4rem;
+  }
+
   .header-nav {
     display: none;
   }
@@ -185,10 +192,7 @@
     width: 80%;
   }
 
-  .btn,
-  .btn:link,
-  .btn:visited {
-    font-size: 2rem;
-    padding: 1.2rem 2.4rem;
+  .booking--text {
+    font-size: 3.2rem;
   }
 }
