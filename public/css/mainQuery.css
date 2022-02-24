@@ -264,4 +264,13 @@
     justify-self: center;
     grid-column: unset;
   }
+
+  .gallery-outer {
+    grid-template-columns: 1fr;
+    row-gap: 4.8rem;
+  }
+
+  .gallery-image {
+    height: 16rem;
+  }
 }
