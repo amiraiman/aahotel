@@ -273,4 +273,13 @@
   .gallery-image {
     height: 16rem;
   }
+
+  .footer-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .footer-item:last-child {
+    grid-column: 1 / span 2;
+    justify-self: center;
+  }
 }
