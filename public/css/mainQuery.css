@@ -169,6 +169,14 @@
     padding: 1.2rem 2.4rem;
   }
 
+  .section-heading {
+    font-size: 3.8rem;
+  }
+
+  .section-subheading {
+    font-size: 3rem;
+  }
+
   .header-nav {
     display: none;
   }
@@ -194,6 +202,10 @@
 
   .booking--text {
     font-size: 3.2rem;
+  }
+
+  .featured-section {
+    padding-bottom: 4.8rem;
   }
 
   .featured-grid {
