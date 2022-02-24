@@ -179,4 +179,9 @@
   .hero-heading {
     font-size: 6rem;
   }
+
+  .hero-form {
+    align-self: start;
+    width: 70%;
+  }
 }
