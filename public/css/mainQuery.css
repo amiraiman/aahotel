@@ -239,4 +239,17 @@
   .review-name {
     font-size: 1.2rem;
   }
+
+  .ammenities {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3.2rem;
+  }
+
+  .ammenity:nth-child(odd) {
+    justify-self: end;
+  }
+
+  .ammenity:nth-child(even) {
+    justify-self: start;
+  }
 }
