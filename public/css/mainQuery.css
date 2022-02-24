@@ -231,4 +231,12 @@
   .rating-star {
     margin-bottom: 0;
   }
+
+  .review-text {
+    font-size: 1.4rem;
+  }
+
+  .review-name {
+    font-size: 1.2rem;
+  }
 }
