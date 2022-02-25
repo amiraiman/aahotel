@@ -283,3 +283,10 @@
     justify-self: center;
   }
 }
+
+/* Phones <= 512px  */
+@media (max-width: 32em) {
+  html {
+    font-size: 45%;
+  }
+}
