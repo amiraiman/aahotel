@@ -311,6 +311,10 @@
     font-size: 2rem;
   }
 
+  .hero-form {
+    width: 85%;
+  }
+
   .featured-section .section-heading {
     display: none;
   }
