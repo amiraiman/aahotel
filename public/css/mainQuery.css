@@ -319,4 +319,21 @@
     font-weight: 300;
     margin-bottom: 4.8rem;
   }
+
+  .featured-grid {
+    gap: 2.4rem;
+  }
+
+  .rating {
+    padding-bottom: 2.4rem;
+  }
+
+  .rating-text,
+  .review-text {
+    font-size: 1.6rem;
+  }
+
+  .review-name {
+    font-size: 1.4rem;
+  }
 }
