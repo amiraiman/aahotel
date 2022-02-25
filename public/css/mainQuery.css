@@ -305,4 +305,18 @@
   .intro-text {
     font-size: 2rem;
   }
+
+  .featured-section .section-heading {
+    display: none;
+  }
+
+  .featured-section .container::before {
+    display: block;
+    content: "see what they say";
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 4.8rem;
+    font-weight: 300;
+    margin-bottom: 4.8rem;
+  }
 }
