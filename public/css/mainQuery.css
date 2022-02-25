@@ -391,12 +391,16 @@
 
   .footer-grid {
     grid-template-columns: 1fr;
-    padding-left: 9.6rem;
   }
 
   .footer-item:last-child {
     grid-column: auto;
     justify-self: stretch;
+  }
+
+  .footer-item {
+    width: 70%;
+    margin: 0 auto;
   }
 
   .footer-head {
