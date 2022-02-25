@@ -336,4 +336,16 @@
   .review-name {
     font-size: 1.4rem;
   }
+
+  .ammenities {
+    gap: 4.8rem;
+  }
+
+  .ammenity {
+    width: 90%;
+  }
+
+  .ammenity-text {
+    font-size: 1.6rem;
+  }
 }
