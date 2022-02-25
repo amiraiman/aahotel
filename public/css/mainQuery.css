@@ -289,4 +289,16 @@
   html {
     font-size: 45%;
   }
+
+  .header {
+    height: 60px;
+  }
+
+  .section-heading {
+    font-size: 4.8rem;
+  }
+
+  .hero-subheading {
+    font-size: 3rem;
+  }
 }
