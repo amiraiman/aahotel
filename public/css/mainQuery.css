@@ -301,4 +301,8 @@
   .hero-subheading {
     font-size: 3rem;
   }
+
+  .intro-text {
+    font-size: 2rem;
+  }
 }
