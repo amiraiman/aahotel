@@ -38,6 +38,11 @@
   color: var(--black);
 }
 
+.header-icon--open:hover,
+.header-icon--close:hover {
+  color: var(--primary--shade);
+}
+
 .header-nav {
   display: flex;
   align-items: center;
