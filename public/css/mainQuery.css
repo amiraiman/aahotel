@@ -91,6 +91,8 @@
 @media (max-width: 57em) {
   .header-icon {
     display: block;
+    position: relative;
+    z-index: 100;
   }
 
   .header-icon--open {
@@ -111,6 +113,20 @@
 
   .header-nav {
     display: none;
+    align-items: center;
+    justify-content: center;
+    gap: 6.4rem;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    flex-direction: column;
+    background-color: var(--primary--light);
+  }
+
+  .header.nav-open .header-nav {
+    display: flex;
   }
 
   .hero-heading {
