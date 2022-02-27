@@ -93,6 +93,22 @@
     display: block;
   }
 
+  .header-icon--open {
+    display: inline-block;
+  }
+
+  .header-icon--close {
+    display: none;
+  }
+
+  .header.nav-open .header-icon--open {
+    display: none;
+  }
+
+  .header.nav-open .header-icon--close {
+    display: inline-block;
+  }
+
   .header-nav {
     display: none;
   }
