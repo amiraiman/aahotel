@@ -24,6 +24,7 @@
     "express": "^4.17.3"
   },
   "devDependencies": {
+    "dotenv": "^16.0.3",
     "node-sass": "^7.0.1",
     "nodemon": "^2.0.15"
   }

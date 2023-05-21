@@ -1,9 +1,12 @@
+require("dotenv").config();
+
 const path = require("path");
 const express = require("express");
 
 const app = express();
 const port = process.env.PORT || 8080;
 const leaflet_api_key = process.env.LEAFLET_API_KEY || "some key here pls";
+console.log(port, leaflet_api_key)
 
 app.set("views", path.join(__dirname, "views"));
 app.set("view engine", "ejs");
